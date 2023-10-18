@@ -31,639 +31,605 @@ module Haikunator
 
     def adjectives
       %w[
-        autumn hidden bitter misty silent empty dry dark summer
-        icy delicate quiet cool spring winter patient
-        twilight dawn crimson wispy weathered blue billowing
-        broken cold damp falling frosty green long late lingering
-        bold little morning muddy old red rough still small
-        sparkling thrumming shy wandering withered wild mature
-        young holy solitary fragrant aged snowy proud floral
-        restless divine polished ancient purple lively nameless
-        dazzling brave happy enchanting gentle glorious handsome
-        marvelous classy calming beautiful amazing urban incredible
-        heavenly bright brilliant salty mystic adorable elegant
-        astonishing graceful charming gleaming fascinating delightful
-        clever captivating fierce fashionable exquisite breathtaking
-        exuberant serene majestic radiant melodic harmonious
-        captivating jubilant blissful zesty affectionate
+        abundant
+        accomplished
+        adorable
+        adventurous
+        affectionate
+        aged
         alluring
+        amazing
         ambitious
+        ancient
         appreciative
+        artistic
+        astonishing
+        attentive
         authentic
+        autumn
         awesome
         balanced
+        beautiful
         benevolent
+        billowing
+        bitter
         blessed
+        blissful
         blithe
+        blue
         bold
         bountiful
         brave
+        breathtaking
+        bright
         brilliant
+        broken
         buoyant
+        calm
+        calming
+        captivating
         caring
         celebrated
         charismatic
+        charming
         cheerful
         chic
+        classy
         clever
+        cold
+        collaborative
+        comforting
         compassionate
+        competent
         confident
+        conscientious
+        considerate
+        cool
         courageous
         creative
+        crimson
+        cultured
+        curious
+        damp
+        dark
+        dashing
+        dawn
         dazzling
+        dedicated
+        delicate
+        delightful
+        dependable
         determined
         devoted
+        diligent
+        disciplined
+        divine
+        dry
         dynamic
         eager
         earnest
         ecstatic
         effervescent
+        efficient
+        elegant
         eloquent
         empathetic
         empowered
+        empowering
+        empty
+        enchanting
         energetic
         engaging
+        enterprising
         enthusiastic
         exciting
         exhilarating
+        experienced
+        expressive
+        exquisite
         extraordinary
+        exuberant
         fabulous
+        faithful
+        falling
         fantastic
+        fascinating
+        fashionable
         fearless
+        fierce
+        flexible
+        floral
         flourishing
         fortunate
+        fragrant
         friendly
+        frosty
         fun-loving
         generous
+        gentle
         genuine
+        gleaming
+        glorious
         glowing
+        graceful
         gracious
         grateful
         great-hearted
+        green
+        handsome
+        happy
         happy-go-lucky
         harmonious
+        healthy
         heartwarming
+        heavenly
         helpful
         heroic
+        hidden
+        holy
+        honest
         honorable
+        humble
+        humorous
+        icy
         imaginative
         impressive
         incandescent
         inclusive
+        incredible
         independent
+        indomitable
+        ingenious
         innovative
+        inquisitive
+        insightful
         inspiring
         intelligent
-        joyful
+        intuitive
+        invigorating
+        invincible
         jovial
+        joyful
         joyous
+        jubilant
+        kind
+        kind-hearted
         kindhearted
+        knowledgeable
+        late
         levitating
         lighthearted
         limitless
+        lingering
+        little
+        lively
+        long
+        lovely
         loving
+        loyal
         lucky
         luminescent
         luminous
-        fantastic
-        confident
-        lovely
-        charming
-        fascinating
-        amazing
-        beautiful
-        enthusiastic
-        fabulous
-        talented
-        accomplished
-        creative
-        passionate
-        graceful
-        benevolent
-        caring
-        elegant
-        dazzling
-        radiant
-        splendid
-        vivacious
-        innovative
-        resilient
-        extraordinary
-        intelligent
-        gentle
-        optimistic
-        warm-hearted
-        compassionate
-        generous
-        inspiring
-        cheerful
-        vibrant
-        precious
-        sincere
-        harmonious
-        valiant
-        wise
-        witty
-        resourceful
-        fearless
-        diligent
-        jovial
-        charismatic
-        humorous
-        adventurous
-        diligent
-        cultured
-        faithful
-        peaceful
-        insightful
-        engaging
-        radiant
-        lively
-        passionate
-        dashing
-        resilient
-        delightful
-        majestic
         magnetic
-        smooth
-        strong
-        tender
+        majestic
+        marvelous
+        mature
+        melodic
+        misty
+        morning
         motivated
-        outstanding
-        respectful
-        creative
-        empowering
-        splendid
-        abundant
-        grateful
-        unique
-        victorious
-        kind
-        progressive
-        authentic
-        understanding
-        attentive
-        appreciative
-        selfless
-        vibrant
-        enterprising
-        fearless
-        extraordinary
-        productive
+        muddy
+        mystic
+        nameless
         nurturing
-        invigorating
-        dedicated
-        comforting
-        empowering
-        healthy
-        ingenious
-        cheerful
-        affectionate
-        calm
-        wise
-        indomitable
-        tenacious
-        invincible
-        resilient
-        radiant
-        expressive
-        trustworthy
-        delightful
-        positive
-        invigorating
-        resilient
-        uplifting
-        transformative
-        authentic
-        visionary
-        innovative
-        inspiring
-        compassionate
-        gentle
-        wise
-        harmonious
-        caring
-        affectionate
-        courageous
-        determined
-        motivated
-        honest
-        patient
-        joyful
-        grateful
-        kind
-        generous
-        understanding
-        empathetic
-        adventurous
-        curious
+        old
         open-minded
-        resilient
-        flexible
-        ambitious
-        diligent
-        organized
-        disciplined
-        skillful
-        competent
-        reliable
-        efficient
-        grateful
-        humble
-        appreciative
-        innovative
-        adventurous
-        experienced
-        insightful
-        knowledgeable
-        sensible
-        polite
-        professional
-        supportive
-        trustworthy
-        brave
-        charismatic
-        collaborative
-        courageous
-        curious
-        determined
-        dynamic
-        empathetic
-        energetic
-        enthusiastic
-        expressive
-        flexible
-        fun-loving
-        genuine
-        gracious
-        inquisitive
-        intuitive
-        joyful
-        kind-hearted
-        loving
-        loyal
-        nurturing
         optimistic
+        organized
+        outstanding
         passionate
+        patient
         peaceful
         persistent
         playful
+        polished
+        polite
         positive
-        resilient
-        selfless
-        spiritual
-        talented
-        thoughtful
-        warm-hearted
-        wise
-        wonderful
-        zealous
-        magnetic
-        artistic
-        considerate
-        dependable
-        imaginative
-        sociable
-        ambitious
-        attentive
-        faithful
-        inspiring
+        precious
+        productive
+        professional
+        progressive
+        proud
+        purple
+        quiet
+        radiant
+        red
         reliable
-        tenacious
-        attentive
-        compassionate
-        diligent
-        joyful
+        resilient
+        resourceful
+        respectful
+        restless
+        rough
+        salty
+        selfless
+        sensible
+        serene
+        shy
+        silent
+        sincere
+        skillful
+        small
+        smooth
+        snowy
+        sociable
+        solitary
+        sparkling
+        spiritual
+        splendid
+        spring
+        still
+        strong
+        summer
         supportive
+        talented
+        tenacious
+        tender
+        thoughtful
+        thrumming
+        transformative
         trustworthy
-        wise
+        twilight
+        understanding
         unique
-        inquisitive
-        conscientious
-        authentic
-        positive
-        optimistic
-        caring
+        uplifting
+        urban
+        valiant
+        vibrant
+        victorious
+        visionary
+        vivacious
+        wandering
+        warm-hearted
+        weathered
+        wild
+        winter
+        wise
+        wispy
+        withered
+        witty
+        wonderful
+        young
+        zealous
+        zesty
       ]
     end
 
     def nouns
       %w[
-        waterfall river breeze moon rain wind sea morning
-        snow lake sunset pine shadow leaf dawn glitter forest
-        hill cloud meadow sun glade bird brook butterfly
-        bush dew dust field fire flower firefly feather grass
-        haze mountain night pond darkness snowflake silence
-        sound sky shape surf thunder violet water wildflower
-        wave water resonance sun log dream cherry tree fog
-        frost voice paper frog smoke star
-        koala vegemite acai jungle beach desert chocolate deer
-        tiramisu island honey smoothie valley ocean earth
-        plains camel coffee tea cookies soup dandelion sprinkles
-        snail lullaby platypus painting wallaby flamingo owl
-        otter fox pancake biscuit
-        love
-        smile
-        laughter
-        harmony
-        rainbow
-        music
-        joy
-        hope
-        kindness
-        friendship
-        bliss
-        happiness
-        tranquility
-        serenity
-        beauty
-        serenade
-        whisper
-        inspiration
-        brilliance
-        radiance
-        marvel
-        wonder
-        elation
-        delight
-        serendipity
-        magic
-        enchantment
-        treasure
-        dreamer
-        imagination
-        enthusiasm
-        passion
-        success
-        victory
-        achievement
-        creativity
-        innovation
-        transformation
-        adventure
-        exploration
-        discovery
-        enlightenment
-        courage
-        freedom
-        empowerment
-        wisdom
-        knowledge
-        enlightenment
-        resilience
-        tenacity
-        determination
-        faith
-        inspiration
-        serendipity
-        miracle
-        grace
-        blessing
-        kindred
-        spirit
-        compassion
-        generosity
-        gratitude
         abundance
-        prosperity
-        harmony
-        unity
-        balance
-        renewal
-        healing
-        tranquility
-        peace
-        calm
-        stillness
-        wholeness
-        contentment
-        patience
-        understanding
-        serenity
-        forgiveness
-        resilience
-        inspiration
-        motivation
-        joyfulness
-        celebration
-        excitement
-        thrill
-        wonderment
-        ecstasy
-        satisfaction
-        fulfillment
-        prosperity
-        gratefulness
-        optimism
-        positivity
-        refreshment
-        revitalization
-        energy
-        rejuvenation
-        vibrance
-        vitality
+        acai
+        accolade
+        achievement
         adventure
-        exploration
-        discovery
-        wonder
-        curiosity
+        amusement
+        aptitude
         ascension
         awakening
-        nirvana
-        enlightenment
-        tranquility
-        eternity
-        infinity
-        infinity
-        clarity
-        reflection
-        radiance
-        blooming
-        blossoming
-        flourishing
-        renewal
-        rebirth
-        purity
-        impression
-        progress
-        growth
-        achievement
-        success
-        fulfillment
-        honesty
-        integrity
-        perseverance
-        endurance
-        resilience
-        support
-        encouragement
-        nourishment
-        inspiration
-        motivation
-        collaboration
-        empathy
-        kindness
-        wisdom
-        connectivity
-        unity
-        abundance
-        goodness
+        balance
+        beach
+        beauty
         benevolence
-        transformation
-        miracle
-        imagination
-        creativity
-        vision
-        innovation
+        betwixt
+        bird
+        biscuit
+        blessing
+        bliss
+        blooming
+        blossom
+        blossoming
+        breeze
         brilliance
-        mindfulness
-        reverie
-        amusement
-        sensation
-        warmth
-        serenade
-        whisper
-        wonderment
-        melody
-        harmony
-        honk
+        brook
+        bush
+        butterfly
         buzz
-        giggle
-        pop
-        sparkle
-        radiance
-        enchantment
-        majestic
-        embrace
-        petal
-        playfulness
-        furry
-        friend
+        cachet
+        calm
+        camel
+        captivation
+        cascade
+        celebration
+        charisma
+        cherry
+        chocolate
+        clarity
+        cloud
+        coffee
+        collaboration
+        compassion
+        connectivity
+        contentment
         cookie
+        cookies
+        courage
+        creativity
+        curiosity
+        dandelion
+        darkness
+        dawn
+        deer
+        delicacy
+        delight
+        desert
+        determination
+        dew
+        discovery
+        dream
+        dreamer
+        dust
+        earth
+        ecstasy
+        elation
+        elevation
+        elixir
+        eloquence
+        embrace
+        empathy
+        empowerment
+        enchantment
+        enclave
+        encouragement
+        endurance
+        energy
+        enlightenment
+        enrichment
+        enthusiasm
+        entrancement
+        epiphany
+        epitome
+        essence
+        eternity
+        euphoria
+        excitement
+        exhilaration
+        exploration
+        extraordinaire
+        extravaganza
+        exultation
+        faith
+        feast
+        feather
+        field
+        fire
+        firefly
+        flamingo
+        flourish
+        flourishing
+        flower
+        fog
+        forest
+        forgiveness
+        fox
+        freedom
+        friend
+        friendship
+        frog
+        frost
+        fulfillment
+        furry
+        generosity
+        gift
+        giggle
+        glade
+        glitter
+        goodness
+        grace
+        grass
+        gratefulness
+        gratitude
+        growth
+        happiness
+        harmony
+        haven
+        haze
+        healing
+        hearth
+        hill
+        honesty
+        honey
+        honk
+        hope
+        illumination
+        imagination
+        immersion
+        impression
+        indulgence
+        infinity
+        infusion
+        innovation
+        inspiration
+        inspire
+        integrity
+        island
+        joy
+        joyfulness
+        joyride
+        jubilation
+        jubilee
+        jungle
+        kindness
+        kindred
+        knowledge
+        koala
+        lake
+        laughter
+        lavishness
+        leaf
+        legacy
+        log
+        love
+        lullaby
+        luminary
+        lushness
+        luxuriance
+        magic
+        majestic
+        marvel
+        meadow
+        meander
+        melody
+        mindfulness
+        miracle
+        momentum
+        moon
+        morning
+        motivation
+        mountain
+        muse
+        music
+        night
+        nirvana
+        nourishment
+        oasis
+        ocean
+        optimism
+        opulence
+        otter
+        owl
+        painting
+        panache
+        pancake
+        paper
+        paradigm
+        passion
+        patience
+        peace
+        perfection
+        perseverance
+        petal
+        phenomenon
+        pine
+        pinnacle
+        pizzazz
+        plains
+        platypus
+        playfulness
+        pond
+        pop
+        positivity
+        presence
+        progress
+        prosperity
+        purity
+        quintessence
+        radiance
+        rain
+        rainbow
+        rapture
+        rebirth
+        reflection
+        refreshment
+        regeneration
+        rejuvenation
+        relish
+        renaissance
+        renewal
+        resilience
+        resonance
+        restoration
+        retreat
+        revelation
+        reverence
+        reverie
+        revitalization
+        rhapsody
+        river
+        sanctuary
+        satisfaction
+        savor
+        sea
+        sensation
+        serenade
+        serendipity
+        serenity
+        shadow
+        shape
+        silence
+        sky
+        smile
+        smoke
+        smoothie
+        snail
+        snow
+        snowflake
+        soaring
+        sound
+        soup
+        sparkle
+        spirit
+        splendor
+        sprinkles
+        star
+        stillness
+        success
+        sumptuousness
+        sun
+        sunset
+        supernova
+        support
+        supremacy
+        surf
         sweetness
         symphony
-        melody
-        inspiration
-        muse
-        blossom
-        joyride
-        zest
-        regeneration
-        adventure
-        embrace
-        savor
-        yearning
-        meander
-        wanderlust
-        magic
-        extravaganza
-        jubilee
-        feast
-        feast
-        legacy
-        oasis
-        haven
-        enclave
-        retreat
-        exploration
-        delicacy
-        whimsey
-        pizzazz
-        lavishness
-        marvel
-        presence
-        delight
-        wonder
-        essence
-        restoration
-        sanctuary
-        charisma
-        jubilation
-        inspiration
-        nirvana
-        gift
-        luminary
-        infusion
-        blessing
-        betwixt
-        betwixt
-        splendor
-        rhapsody
-        whirl
-        entrancement
-        accolade
-        euphoria
-        venture
-        utopia
-        supernova
-        soaring
         synergy
-        triumph
-        jubilee
-        revelation
-        delight
-        miracle
-        exhilaration
-        triumph
-        phenomenon
-        rhapsody
-        paradigm
-        elevation
-        thrive
-        jubilation
-        enchantment
-        vibrancy
-        zing
-        clarity
-        renaissance
-        flourish
-        pinnacle
-        opulence
-        vivacity
-        momentum
-        upliftment
-        ecstasy
-        rapture
-        savor
-        reverence
-        luxuriance
-        elixir
-        bliss
-        transcendence
-        panache
-        whiz
-        cachet
-        immersion
-        illumination
-        relish
-        indulgence
-        cascade
-        enrichment
-        extraordinaire
-        supremacy
-        epiphany
-        sumptuousness
-        zeal
-        perfection
-        fulfillment
-        empowerment
-        epitome
-        brilliance
-        marvel
-        captivation
-        reverie
-        elation
-        lushness
-        quintessence
-        eloquence
-        aptitude
         talent
-        splendor
-        inspire
-        legacy
-        hearth
-        exultation
-        delicacy
+        tea
+        tenacity
+        thrill
+        thrive
+        thunder
+        tiramisu
+        tranquility
+        transcendence
+        transformation
+        treasure
+        tree
+        triumph
+        understanding
+        unity
+        upliftment
+        utopia
+        valley
+        vegemite
+        venture
+        vibrance
+        vibrancy
+        victory
+        violet
+        vision
+        vitality
+        vivacity
+        voice
+        wallaby
+        wanderlust
+        warmth
+        water
+        waterfall
+        wave
+        whimsey
+        whirl
+        whisper
+        whiz
+        wholeness
+        wildflower
+        wind
+        wisdom
+        wonder
+        wonderment
+        yearning
+        zeal
+        zest
+        zing
       ]
     end
   end
