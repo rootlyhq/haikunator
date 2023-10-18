@@ -144,7 +144,6 @@ module Haikunator
         fragrant
         friendly
         frosty
-        fun-loving
         generous
         gentle
         genuine
@@ -154,11 +153,9 @@ module Haikunator
         graceful
         gracious
         grateful
-        great-hearted
         green
         handsome
         happy
-        happy-go-lucky
         harmonious
         healthy
         heartwarming
@@ -193,7 +190,6 @@ module Haikunator
         joyous
         jubilant
         kind
-        kind-hearted
         kindhearted
         knowledgeable
         late
@@ -223,7 +219,6 @@ module Haikunator
         nameless
         nurturing
         old
-        open-minded
         optimistic
         organized
         outstanding
@@ -255,7 +250,6 @@ module Haikunator
         sensible
         serene
         shy
-        silent
         sincere
         skillful
         small
@@ -289,7 +283,6 @@ module Haikunator
         visionary
         vivacious
         wandering
-        warm-hearted
         weathered
         wild
         winter
@@ -355,7 +348,6 @@ module Haikunator
         creativity
         curiosity
         dandelion
-        darkness
         dawn
         deer
         delicacy
@@ -368,7 +360,6 @@ module Haikunator
         dreamer
         dust
         earth
-        ecstasy
         elation
         elevation
         elixir
@@ -410,7 +401,6 @@ module Haikunator
         forest
         forgiveness
         fox
-        freedom
         friend
         friendship
         frog
@@ -520,19 +510,15 @@ module Haikunator
         presence
         progress
         prosperity
-        purity
         quintessence
         radiance
         rain
         rainbow
-        rapture
-        rebirth
         reflection
         refreshment
         regeneration
         rejuvenation
         relish
-        renaissance
         renewal
         resilience
         resonance
