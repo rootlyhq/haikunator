@@ -82,7 +82,6 @@ module Haikunator
         compassionate
         competent
         confident
-        conscientious
         considerate
         cool
         courageous
@@ -109,12 +108,10 @@ module Haikunator
         eager
         earnest
         ecstatic
-        effervescent
         efficient
         elegant
         eloquent
         empathetic
-        empowered
         empowering
         empty
         enchanting
@@ -152,7 +149,6 @@ module Haikunator
         glowing
         graceful
         gracious
-        grateful
         green
         handsome
         happy
@@ -167,7 +163,6 @@ module Haikunator
         honest
         honorable
         humble
-        humorous
         icy
         imaginative
         impressive
@@ -175,7 +170,6 @@ module Haikunator
         inclusive
         incredible
         independent
-        indomitable
         ingenious
         innovative
         inquisitive
@@ -185,7 +179,6 @@ module Haikunator
         intuitive
         invigorating
         invincible
-        jovial
         joyful
         joyous
         jubilant
@@ -204,7 +197,6 @@ module Haikunator
         loving
         loyal
         lucky
-        luminescent
         luminous
         magnetic
         majestic
@@ -304,7 +296,6 @@ module Haikunator
         accolade
         achievement
         adventure
-        amusement
         aptitude
         ascension
         awakening
@@ -312,14 +303,12 @@ module Haikunator
         beach
         beauty
         benevolence
-        betwixt
         bird
         biscuit
         blessing
         bliss
         blooming
         blossom
-        blossoming
         breeze
         brilliance
         brook
@@ -343,7 +332,6 @@ module Haikunator
         connectivity
         contentment
         cookie
-        cookies
         courage
         creativity
         curiosity
@@ -357,7 +345,6 @@ module Haikunator
         dew
         discovery
         dream
-        dreamer
         dust
         earth
         elation
@@ -395,7 +382,6 @@ module Haikunator
         firefly
         flamingo
         flourish
-        flourishing
         flower
         fog
         forest
@@ -406,10 +392,8 @@ module Haikunator
         frog
         frost
         fulfillment
-        furry
         generosity
         gift
-        giggle
         glade
         glitter
         goodness
@@ -427,7 +411,6 @@ module Haikunator
         hill
         honesty
         honey
-        honk
         hope
         illumination
         imagination
@@ -438,12 +421,10 @@ module Haikunator
         infusion
         innovation
         inspiration
-        inspire
         integrity
         island
         joy
         joyfulness
-        joyride
         jubilation
         jubilee
         jungle
@@ -459,7 +440,6 @@ module Haikunator
         log
         love
         lullaby
-        luminary
         lushness
         luxuriance
         magic
@@ -526,7 +506,6 @@ module Haikunator
         retreat
         revelation
         reverence
-        reverie
         revitalization
         rhapsody
         river
@@ -558,7 +537,6 @@ module Haikunator
         star
         stillness
         success
-        sumptuousness
         sun
         sunset
         supernova
@@ -589,7 +567,6 @@ module Haikunator
         vegemite
         venture
         vibrance
-        vibrancy
         victory
         violet
         vision
