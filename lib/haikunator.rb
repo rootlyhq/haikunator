@@ -550,7 +550,6 @@ module Haikunator
         tea
         tenacity
         thrill
-        thrive
         thunder
         tiramisu
         tranquility
