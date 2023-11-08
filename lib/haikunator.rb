@@ -112,7 +112,6 @@ module Haikunator
         elegant
         eloquent
         empathetic
-        empowering
         empty
         enchanting
         energetic
@@ -353,7 +352,6 @@ module Haikunator
         eloquence
         embrace
         empathy
-        empowerment
         enchantment
         enclave
         encouragement
