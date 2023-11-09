@@ -1,6 +1,13 @@
 require_relative "../spec_helper"
 
 describe Haikunator do
+  it "adjectives and nouns does not overlap" do
+    adjectives = Haikunator.send(:adjectives)
+    nouns = Haikunator.send(:nouns)
+
+    expect(adjectives & nouns).to eql([])
+  end
+
   it "generates a name like still-silence-5012" do
     name = Haikunator.haikunate
 

@@ -69,7 +69,6 @@ module Haikunator
         broken
         buoyant
         calm
-        calming
         captivating
         caring
         celebrated
@@ -95,7 +94,6 @@ module Haikunator
         damp
         dark
         dashing
-        dawn
         dazzling
         dedicated
         delicate
@@ -206,7 +204,6 @@ module Haikunator
         mature
         melodic
         misty
-        morning
         motivated
         muddy
         mystic
@@ -267,7 +264,6 @@ module Haikunator
         transformative
         trustworthy
         twilight
-        understanding
         unique
         uplifting
         urban
@@ -318,7 +314,6 @@ module Haikunator
         butterfly
         buzz
         cachet
-        calm
         camel
         captivation
         cascade
