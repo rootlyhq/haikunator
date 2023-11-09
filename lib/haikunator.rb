@@ -444,7 +444,6 @@ module Haikunator
         lushness
         luxuriance
         magic
-        majestic
         marvel
         meadow
         meander
