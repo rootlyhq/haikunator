@@ -294,6 +294,7 @@ module Haikunator
         accolade
         achievement
         adventure
+        alliance
         aptitude
         ascension
         awakening
@@ -536,7 +537,6 @@ module Haikunator
         sunset
         supernova
         support
-        supremacy
         surf
         sweetness
         symphony
