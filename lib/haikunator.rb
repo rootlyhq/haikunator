@@ -3,17 +3,20 @@ require "securerandom"
 
 module Haikunator
   class << self
-    def haikunate(token_range = 9999, delimiter = "-", excluded_nouns: [], excluded_adjectives: [])
-      build(token_range, delimiter, excluded_nouns: excluded_nouns, excluded_adjectives: excluded_adjectives)
+    def haikunate(token_range = 9999, delimiter = "-", adjectives: nil, nouns: nil, excluded_nouns: [], excluded_adjectives: [])
+      build(token_range, delimiter, adjectives: Array(adjectives), nouns: Array(nouns), excluded_nouns:, excluded_adjectives:)
     end
 
     private
 
-    def build(token_range, delimiter, excluded_nouns: [], excluded_adjectives: [])
-      filtered_adjectives = excluded_adjectives.any? ? adjectives.filter { |a| !excluded_adjectives.include?(a) } : adjectives
-      filtered_nouns = excluded_nouns.any? ? nouns.filter { |n| !excluded_nouns.include?(n) } : nouns
-      filtered_adjectives = adjectives if filtered_adjectives.empty?
-      filtered_nouns = nouns if filtered_nouns.empty?
+    def build(token_range, delimiter, adjectives:, nouns:, excluded_nouns: [], excluded_adjectives: [])
+      override_adjectives = adjectives.any? ? adjectives : self.adjectives
+      override_nouns = nouns.any? ? nouns : self.nouns
+
+      filtered_adjectives = excluded_adjectives.any? ? override_adjectives.filter { |a| !excluded_adjectives.include?(a) } : override_adjectives
+      filtered_nouns = excluded_nouns.any? ? override_nouns.filter { |n| !excluded_nouns.include?(n) } : override_nouns
+      filtered_adjectives = override_adjectives if filtered_adjectives.empty?
+      filtered_nouns = override_nouns if filtered_nouns.empty?
 
       sections = [
         filtered_adjectives[random_seed % filtered_adjectives.length],
